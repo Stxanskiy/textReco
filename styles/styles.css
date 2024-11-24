@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+QLabel {
+    font-size: 16px;
+}
+#header {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#resultLabel, #imageLabel {
+    color: #6b6a6a;
+    padding: 10px;
+}
+
+QPushButton {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+QComboBox {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background: #2d2d2d;  
+    color: #ffffff;       
+    font: 14px "Arial";
+    min-height: 30px;
+}
+
+QComboBox:editable {
+    background: #3d3d3d; 
+}
+
+
+QComboBox QAbstractItemView {
+    border: 1px solid #aaa;
+    selection-background-color: #555555;
+    selection-color: #ffffff;          
+    background: #2d2d2d;               
+    color: #ffffff;                    
+    padding: 5px;
+}

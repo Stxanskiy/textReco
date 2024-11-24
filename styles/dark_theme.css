@@ -1,0 +1,36 @@
+QMainWindow {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+QLabel#header {
+    background-color: #D8E3AB;
+    color: black;
+}
+
+QLabel#imageLabel {
+    background-color: #2c2b2b;
+    border-radius: 10px;
+    border: 1px dashed white;
+}
+
+
+QScrollArea#scrollResultArea {
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+QLabel#resultLabel {
+    background-color: #2c2b2b;
+    color: white;
+}
+
+QPushButton {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+QPushButton:hover {
+    background-color: #333;
+}
